@@ -1,0 +1,36 @@
+.input {
+    position: relative;
+
+    .icon {
+        width: 24px;
+        height: 24px;
+        opacity: 0.35;
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        transform: translateY(-50%);
+    }
+
+    input {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 12px 45px;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 16px;
+
+        &:focus {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .closeIcon {
+        width: 24px;
+        height: 24px;
+        opacity: 0.35;
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+}
